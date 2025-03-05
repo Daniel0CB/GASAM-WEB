@@ -1,21 +1,3 @@
-#main-header {
-	background: #48e;
-	height: 70px;
-    width: 100vw;
-    position: fixed;
-    display: flex;
-	justify-content: space-between; /*separar elementos y que esten es esquinas opuestas*/
-}
-/*
-#main-header-u{
-	width: 40px;
-	height: 40px;
-	padding-right: 20px;
-	padding-top: 10px;
-	position: relative;
-	cursor: pointer;
-}
-*/
 body{
     margin: 0;
     background-color: #cdd0da;
@@ -83,12 +65,10 @@ img{
 }
 
 nav{
-    background-color: #48e;
-}
-
-.nav__list{
-    margin: 0;
-    text-align: center;
+    background-color: transparent;
+    height: 70px;
+    width: 100vw;
+    position: fixed;
 }
 
 .nav__item{
@@ -100,7 +80,8 @@ nav{
     text-decoration: none;
     display: inline-block;
     padding: 10px;
-    background-color: #48e;
+    background-color: #8c52ff;
+    border-radius: 25px;
 }
 
 .nav__link:hover{
