@@ -1,6 +1,6 @@
 #main-header {
 	background: #48e;
-	height: 90px;
+	height: 70px;
     width: 100vw;
     position: fixed;
     display: flex;
@@ -23,7 +23,7 @@ body{
     color: black;
 }
 
-.Noti{
+.Notitl{
     font-size: 18px;
     line-height: 0;
     margin: o;
@@ -37,16 +37,11 @@ body{
 .boxeo{
     height: 80px;
     width: 200px;
-    background-color: #f00;
     position: fixed;
-    /*Con position absolute la caja se queda fija con relative pues no jajajajaja*/
     right: 0;
     top: 300px;
-    background-color: #fff;
-    border: 1px solid #000;
-    border-right: 0;
-    box-shadow: 0px 0px 40px #0009;
-    z-index: 30;
+    background-color: #0cc0df;
+    opacity: 0.8;
 }
 
 .Nuestra_Firma{
